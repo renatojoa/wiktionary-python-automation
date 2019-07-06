@@ -1,0 +1,137 @@
+{
+  "uid" : "7c605e0c57452f8d",
+  "name" : "Efetuar Login com sucesso -- @1.1 login",
+  "historyId" : "cd419dd22eed6da5e4e6f6e9f04dff74",
+  "time" : {
+    "start" : 1562385327920,
+    "stop" : 1562385335929,
+    "duration" : 8009
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I open: https://en.wiktionary.org/prepare by the first time",
+      "time" : {
+        "start" : 1562385330509,
+        "stop" : 1562385332292,
+        "duration" : 1783
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I am on homepage",
+      "time" : {
+        "start" : 1562385332292,
+        "stop" : 1562385332357,
+        "duration" : 65
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I look up the definition of the word apple",
+      "time" : {
+        "start" : 1562385332358,
+        "stop" : 1562385333201,
+        "duration" : 843
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Given I prepare myself to be on definition page",
+      "time" : {
+        "start" : 1562385333202,
+        "stop" : 1562385333203,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I am on definition page of the word: apple",
+      "time" : {
+        "start" : 1562385333203,
+        "stop" : 1562385333517,
+        "duration" : 314
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "runAppleSearch"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "Teste na funcionalidade de login"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython2"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expectedDefinition",
+    "value" : "A common, round fruit produced by the tree Malus domestica, cultivated in temperate climates."
+  }, {
+    "name" : "searchTxt",
+    "value" : "apple"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "runAppleSearch" ]
+  },
+  "source" : "7c605e0c57452f8d.json",
+  "parameterValues" : [ "A common, round fruit produced by the tree Malus domestica, cultivated in temperate climates.", "apple" ]
+}

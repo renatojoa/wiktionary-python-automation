@@ -1,0 +1,22 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Teste na funcionalidade de login",
+    "children" : [ {
+      "name" : "Efetuar Login com sucesso -- @1.1 login",
+      "uid" : "7c605e0c57452f8d",
+      "parentUid" : "9769eb9835302c8748525e44e5fa2ff7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1562385327920,
+        "stop" : 1562385335929,
+        "duration" : 8009
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "A common, round fruit produced by the tree Malus domestica, cultivated in temperate climates.", "apple" ]
+    } ],
+    "uid" : "9769eb9835302c8748525e44e5fa2ff7"
+  } ]
+}
