@@ -6,7 +6,7 @@ import time
 
 class DefinitionPage(BasePage):
     lblHeading = (By.ID, "firstHeading")
-    listNoun = (By.XPATH, "//*[@id='mw-content-text']/div/ol[1]")
+    listNoun = (By.XPATH, "//*[@id='mw-content-text']/div/ol")
 
     def navigate_page(self, url):
         self.open_url(url)
@@ -25,16 +25,5 @@ class DefinitionPage(BasePage):
         assert self.get_title() == (searchTxt + ' - Wiktionary')
         assert self.return_text(self.lblHeading) == searchTxt
 
-    def listArray(self):
-        cells = self.find(self.listNoun)
-        # cells = x.find_elements_by_tag_name('li')
-        definiton = []
-        for cell in cells:
-            hrefs = cells.find_element_by_tag_name('title')[0].text
-
-            # states.append([
-            #     hrefs, 
-            # ])
-            print(hrefs)
-        # time.sleep(300)
-    
+    def assertDefinition(self, expectedDefinition):
+        assert expectedDefinition in self.return_text(self.listNoun)

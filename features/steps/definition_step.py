@@ -28,6 +28,6 @@ def step_impl(context, searchTxt):
 def step_impl(context, searchTxt):
     context.definition_page.onDefinitionPage(searchTxt)
 
-@then("list array")
-def step_impl(context):
-    context.definition_page.listArray()
+@then("I check that one definition is: (?P<expectedDefinition>.+)")
+def step_impl(context, expectedDefinition):
+    context.definition_page.assertDefinition(expectedDefinition)
