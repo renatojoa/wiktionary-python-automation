@@ -1,0 +1,231 @@
+[
+{
+  "elements": [
+    {
+      "keyword": "Scenario Outline",
+      "location": "features/apple_definition.feature:13",
+      "name": "Assert definition of apple -- @1.1 searchbase",
+      "status": "passed",
+      "steps": [
+        {
+          "keyword": "Given",
+          "location": "features/apple_definition.feature:4",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/home_step.py:9"
+          },
+          "name": "I open: https://en.wiktionary.org/prepare by the first time",
+          "result": {
+            "duration": 1.6661739349365234,
+            "status": "passed"
+          },
+          "step_type": "given"
+        },
+        {
+          "keyword": "Then",
+          "location": "features/apple_definition.feature:5",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/home_step.py:14"
+          },
+          "name": "I am on homepage",
+          "result": {
+            "duration": 0.04994964599609375,
+            "status": "passed"
+          },
+          "step_type": "then"
+        },
+        {
+          "keyword": "Then",
+          "location": "features/apple_definition.feature:6",
+          "match": {
+            "arguments": [
+              {
+                "name": "searchTxt",
+                "value": "apple"
+              }
+            ],
+            "location": "features/steps/home_step.py:26"
+          },
+          "name": "I look up the definition of the word apple",
+          "result": {
+            "duration": 0.8960826396942139,
+            "status": "passed"
+          },
+          "step_type": "then"
+        },
+        {
+          "keyword": "Given",
+          "location": "features/apple_definition.feature:7",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/definition_step.py:10"
+          },
+          "name": "I prepare myself to be on definition page",
+          "result": {
+            "duration": 2.00170636177063,
+            "status": "passed"
+          },
+          "step_type": "given"
+        },
+        {
+          "keyword": "Then",
+          "location": "features/apple_definition.feature:8",
+          "match": {
+            "arguments": [
+              {
+                "name": "searchTxt",
+                "value": "apple"
+              }
+            ],
+            "location": "features/steps/definition_step.py:27"
+          },
+          "name": "I am on definition page of the word: apple",
+          "result": {
+            "duration": 0.061936378479003906,
+            "status": "passed"
+          },
+          "step_type": "then"
+        },
+        {
+          "keyword": "Then",
+          "location": "features/apple_definition.feature:9",
+          "match": {
+            "arguments": [
+              {
+                "name": "expectedDefinition",
+                "value": "A common, round fruit produced by the tree Malus domestica, cultivated in temperate climates."
+              }
+            ],
+            "location": "features/steps/definition_step.py:31"
+          },
+          "name": "I check that one definition is: A common, round fruit produced by the tree Malus domestica, cultivated in temperate climates.",
+          "result": {
+            "duration": 0.08591198921203613,
+            "status": "passed"
+          },
+          "step_type": "then"
+        }
+      ],
+      "tags": [],
+      "type": "scenario"
+    },
+    {
+      "keyword": "Scenario Outline",
+      "location": "features/apple_definition.feature:14",
+      "name": "Assert definition of pear -- @1.2 searchbase",
+      "status": "passed",
+      "steps": [
+        {
+          "keyword": "Given",
+          "location": "features/apple_definition.feature:4",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/home_step.py:9"
+          },
+          "name": "I open: https://en.wiktionary.org/prepare by the first time",
+          "result": {
+            "duration": 1.4885470867156982,
+            "status": "passed"
+          },
+          "step_type": "given"
+        },
+        {
+          "keyword": "Then",
+          "location": "features/apple_definition.feature:5",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/home_step.py:14"
+          },
+          "name": "I am on homepage",
+          "result": {
+            "duration": 0.046953439712524414,
+            "status": "passed"
+          },
+          "step_type": "then"
+        },
+        {
+          "keyword": "Then",
+          "location": "features/apple_definition.feature:6",
+          "match": {
+            "arguments": [
+              {
+                "name": "searchTxt",
+                "value": "pear"
+              }
+            ],
+            "location": "features/steps/home_step.py:26"
+          },
+          "name": "I look up the definition of the word pear",
+          "result": {
+            "duration": 0.7800886631011963,
+            "status": "passed"
+          },
+          "step_type": "then"
+        },
+        {
+          "keyword": "Given",
+          "location": "features/apple_definition.feature:7",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/definition_step.py:10"
+          },
+          "name": "I prepare myself to be on definition page",
+          "result": {
+            "duration": 2.001055955886841,
+            "status": "passed"
+          },
+          "step_type": "given"
+        },
+        {
+          "keyword": "Then",
+          "location": "features/apple_definition.feature:8",
+          "match": {
+            "arguments": [
+              {
+                "name": "searchTxt",
+                "value": "pear"
+              }
+            ],
+            "location": "features/steps/definition_step.py:27"
+          },
+          "name": "I am on definition page of the word: pear",
+          "result": {
+            "duration": 0.08691096305847168,
+            "status": "passed"
+          },
+          "step_type": "then"
+        },
+        {
+          "keyword": "Then",
+          "location": "features/apple_definition.feature:9",
+          "match": {
+            "arguments": [
+              {
+                "name": "expectedDefinition",
+                "value": "An edible fruit produced by the pear tree, similar to an apple but elongated towards the stem."
+              }
+            ],
+            "location": "features/steps/definition_step.py:31"
+          },
+          "name": "I check that one definition is: An edible fruit produced by the pear tree, similar to an apple but elongated towards the stem.",
+          "result": {
+            "duration": 0.05694150924682617,
+            "status": "passed"
+          },
+          "step_type": "then"
+        }
+      ],
+      "tags": [],
+      "type": "scenario"
+    }
+  ],
+  "keyword": "Feature",
+  "location": "features/apple_definition.feature:2",
+  "name": "Adidas Challenge Front",
+  "status": "passed",
+  "tags": [
+    "runSearch"
+  ]
+}
+]

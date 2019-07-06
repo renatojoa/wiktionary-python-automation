@@ -14,8 +14,8 @@ Run:
 pip install -r requirements.txt
 ```
 ##Requeriments changes
-*lauch.json - "cwd": "CHANGE/TO/YOUR/PROJECT/FOLDER",
-*environment.py - change for 
+* lauch.json - "cwd": "CHANGE/TO/YOUR/PROJECT/FOLDER",
+* environment.py - change for 
 ## Usage
 Run Tests
 
