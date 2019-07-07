@@ -7,7 +7,8 @@ import time
 class DefinitionPage(BasePage):
     lblHeading = (By.ID, "firstHeading")
     listNoun = (By.XPATH, "//*[@id='mw-content-text']/div/ol")
-
+    listNounSpan = (By.XPATH, "//*[@id='mw-content-text']/div/ol/li")
+    example = (By.XPATH, "//ol")
     def navigate_page(self, url):
         self.open_url(url)
 
@@ -26,4 +27,7 @@ class DefinitionPage(BasePage):
         assert self.return_text(self.lblHeading) == searchTxt
 
     def assertDefinition(self, expectedDefinition):
-        assert expectedDefinition in self.return_text(self.listNoun)
+        x = self.return_text(self.example)
+        print(x.count)
+        print(self.return_text(self.example))
+        assert expectedDefinition in self.return_text(x)
