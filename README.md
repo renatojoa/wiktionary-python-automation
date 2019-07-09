@@ -1,5 +1,5 @@
 # wiktionary-python-automation
-Automation Test using Python programming language using Selenium + Behave + Allure
+Automation Test using Python programming language +  Selenium + Behave + Allure
 ## Installation:
 * [VSCODE](https://code.visualstudio.com/)
 * [Python](https://www.python.org/downloads/)
