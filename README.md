@@ -4,7 +4,7 @@ Automation Test using Python programming language +  Selenium + Behave + Allure
 * [VSCODE](https://code.visualstudio.com/)
 * [Python](https://www.python.org/downloads/)
 
->Open Terminal(Windows) / CMD (Mac)
+>Open Terminal (Mac) / CMD (Windows)
 >Go to project folder
 
 Run:
