@@ -1,36 +1,46 @@
 # wiktionary-python-automation
 Automation Test using Python programming language using Selenium + Behave + Allure
-## Installation
+## Installation:
 * [VSCODE](https://code.visualstudio.com/)
-* [Python](https://pypi.org/project/Appium-Python-Client/)https://www.python.org/downloads/)
-* [Appium-Python-Client](https://pypi.org/project/Appium-Python-Client/)
+* [Python](https://www.python.org/downloads/)
 
-
-```
-Open Terminal(Windows) / CMD (Mac)
-Go to project folder
+>Open Terminal(Windows) / CMD (Mac)
+>Go to project folder
 
 Run:
-pip install -r requirements.txt
-```
-##Requeriments changes
-* lauch.json - "cwd": "CHANGE/TO/YOUR/PROJECT/FOLDER",
-* environment.py - change for 
-## Usage
-Run Tests
+>pip install -r requirements.txt
 
-```
-behave
+## Requeriments changes:
+* lauch.json - "cwd": "CHANGE/TO/YOUR/PROJECT/FOLDER"
+
+## Build, Run and Check:
+Run Test Execution:
+
 Go to project folder
-behave -f allure_behave.formatter:AllureFormatter -o allure-results ./features
-```
+>behave -f allure_behave.formatter:AllureFormatter -o allure-results ./features/definition.feature
+
+Run Test Report:
+>allure serve allure-results
+
+## Examples:
+what should do:
+* Open: https://en.wiktionary.org/
+* Look up the definition of the word: 
+'apple',  'pear'
+* Check for each yours specifics definitions
 
 
-Run Test Report
-```
-allure
-allure serve allure-results
-```
-## Develop by
+## Info:
+* Programming language: Python
+* Repository design pattern: Page Object
+* Testing Structure Model: BDD
+* Testing Structure Framework : Behave 
+* Testing Framework: Pytest
+* Testing export Report: Allure Report
+* Additional recurse: [Suggestions to make the web site faster through](https://developers.google.com/speed/pagespeed/insights/?hl=pt-BR&url=https%3A%2F%2Fen.wiktionary.org%2Fwiki%2Fapple)
+
+
+## Develop by:
 [Site](http://www.renato.pw/)
+
 [GitHub](https://github.com/renatojoa/)

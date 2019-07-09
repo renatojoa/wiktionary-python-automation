@@ -24,14 +24,14 @@ def before_scenario(context, scenario):
         context.driver = webdriver.Chrome(executable_path=os.path.dirname(os.path.realpath(__file__)) + "/resources/chromedriver.exe", chrome_options=options)
     context.driver.implicitly_wait(15)
     context.driver.delete_all_cookies()
-    context.driver.set_window_position(1000, 0)
+    context.driver.set_window_position(2000, 0)
     context.driver.maximize_window()
 
 def after_scenario(context, scenario):
-    # if platform.system() == 'Darwin':
-    #     generate_report('mac')
-    # elif platform.system() == 'Windows':
-    #     generate_report('win')
+    if platform.system() == 'Darwin':
+        generate_report('mac')
+    elif platform.system() == 'Windows':
+        generate_report('win')
     context.driver.quit()
 
 # def after_all(context):

@@ -10,4 +10,6 @@ pyvenv.cfg
 .idea
 .DS_Store
 results.json
+debug.log
 *.log
+allure-html

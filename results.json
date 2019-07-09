@@ -2,119 +2,337 @@
 {
   "elements": [
     {
-      "keyword": "Scenario Outline",
-      "location": "features/definition.feature:14",
-      "name": "Assert definition of pear -- @1.1 searchbase",
-      "status": "passed",
+      "keyword": "Scenario Outline", 
+      "location": "features/definition.feature:13", 
+      "name": "Assert definition of apple -- @1.1 searchbase", 
+      "status": "passed", 
       "steps": [
         {
-          "keyword": "Given",
-          "location": "features/definition.feature:4",
+          "keyword": "Given", 
+          "location": "features/definition.feature:4", 
           "match": {
-            "arguments": [],
+            "arguments": [], 
             "location": "features/steps/home_step.py:9"
-          },
-          "name": "I open: https://en.wiktionary.org/prepare by the first time",
+          }, 
+          "name": "I open: https://en.wiktionary.org/prepare by the first time", 
           "result": {
-            "duration": 1.66829514503479,
+            "duration": 1.8979160785675049, 
             "status": "passed"
-          },
+          }, 
           "step_type": "given"
-        },
+        }, 
         {
-          "keyword": "Then",
-          "location": "features/definition.feature:5",
+          "keyword": "Then", 
+          "location": "features/definition.feature:5", 
           "match": {
-            "arguments": [],
+            "arguments": [], 
             "location": "features/steps/home_step.py:14"
-          },
-          "name": "I am on homepage",
+          }, 
+          "name": "I am on homepage", 
           "result": {
-            "duration": 0.019978761672973633,
+            "duration": 0.12088298797607422, 
             "status": "passed"
-          },
+          }, 
           "step_type": "then"
-        },
+        }, 
         {
-          "keyword": "Then",
-          "location": "features/definition.feature:6",
+          "keyword": "Then", 
+          "location": "features/definition.feature:6", 
           "match": {
             "arguments": [
               {
-                "name": "searchTxt",
-                "value": "pear"
+                "name": "searchTxt", 
+                "value": "apple"
               }
-            ],
+            ], 
             "location": "features/steps/home_step.py:26"
-          },
-          "name": "I look up the definition of the word pear",
+          }, 
+          "name": "I look up the definition of the word apple", 
           "result": {
-            "duration": 0.9480321407318115,
+            "duration": 1.9123787879943848, 
             "status": "passed"
-          },
+          }, 
           "step_type": "then"
-        },
+        }, 
         {
-          "keyword": "Given",
-          "location": "features/definition.feature:7",
+          "keyword": "Given", 
+          "location": "features/definition.feature:7", 
           "match": {
-            "arguments": [],
+            "arguments": [], 
             "location": "features/steps/definition_step.py:10"
-          },
-          "name": "I prepare myself to be on definition page",
+          }, 
+          "name": "I prepare myself to be on definition page", 
           "result": {
-            "duration": 2.0003318786621094,
+            "duration": 2.004486083984375, 
             "status": "passed"
-          },
+          }, 
           "step_type": "given"
-        },
+        }, 
         {
-          "keyword": "Then",
-          "location": "features/definition.feature:8",
+          "keyword": "Then", 
+          "location": "features/definition.feature:8", 
           "match": {
             "arguments": [
               {
-                "name": "searchTxt",
-                "value": "pear"
+                "name": "searchTxt", 
+                "value": "apple"
               }
-            ],
+            ], 
             "location": "features/steps/definition_step.py:27"
-          },
-          "name": "I am on definition page of the word: pear",
+          }, 
+          "name": "I am on definition page of the word: apple", 
           "result": {
-            "duration": 0.08591270446777344,
+            "duration": 0.05484294891357422, 
             "status": "passed"
-          },
+          }, 
           "step_type": "then"
-        },
+        }, 
         {
-          "keyword": "Then",
-          "location": "features/definition.feature:9",
+          "keyword": "Then", 
+          "location": "features/definition.feature:9", 
           "match": {
             "arguments": [
               {
-                "name": "expectedDefinition",
-                "value": "'An edible fruit produced by the pear tree, similar to an apple but elongated towards the stem."
+                "name": "expectedDefinition", 
+                "value": "A common, round fruit produced by the tree Malus domestica, cultivated in temperate climates."
               }
-            ],
+            ], 
             "location": "features/steps/definition_step.py:31"
-          },
-          "name": "I check that one definition is: 'An edible fruit produced by the pear tree, similar to an apple but elongated towards the stem.",
+          }, 
+          "name": "I check that one definition is: A common, round fruit produced by the tree Malus domestica, cultivated in temperate climates.", 
           "result": {
-            "duration": 0.09190559387207031,
+            "duration": 0.2599000930786133, 
             "status": "passed"
-          },
+          }, 
           "step_type": "then"
         }
-      ],
-      "tags": [],
+      ], 
+      "tags": [], 
+      "type": "scenario"
+    }, 
+    {
+      "keyword": "Scenario Outline", 
+      "location": "features/definition.feature:14", 
+      "name": "Assert definition of pear -- @1.2 searchbase", 
+      "status": "passed", 
+      "steps": [
+        {
+          "keyword": "Given", 
+          "location": "features/definition.feature:4", 
+          "match": {
+            "arguments": [], 
+            "location": "features/steps/home_step.py:9"
+          }, 
+          "name": "I open: https://en.wiktionary.org/prepare by the first time", 
+          "result": {
+            "duration": 2.907078981399536, 
+            "status": "passed"
+          }, 
+          "step_type": "given"
+        }, 
+        {
+          "keyword": "Then", 
+          "location": "features/definition.feature:5", 
+          "match": {
+            "arguments": [], 
+            "location": "features/steps/home_step.py:14"
+          }, 
+          "name": "I am on homepage", 
+          "result": {
+            "duration": 0.010519981384277344, 
+            "status": "passed"
+          }, 
+          "step_type": "then"
+        }, 
+        {
+          "keyword": "Then", 
+          "location": "features/definition.feature:6", 
+          "match": {
+            "arguments": [
+              {
+                "name": "searchTxt", 
+                "value": "pear"
+              }
+            ], 
+            "location": "features/steps/home_step.py:26"
+          }, 
+          "name": "I look up the definition of the word pear", 
+          "result": {
+            "duration": 2.064877986907959, 
+            "status": "passed"
+          }, 
+          "step_type": "then"
+        }, 
+        {
+          "keyword": "Given", 
+          "location": "features/definition.feature:7", 
+          "match": {
+            "arguments": [], 
+            "location": "features/steps/definition_step.py:10"
+          }, 
+          "name": "I prepare myself to be on definition page", 
+          "result": {
+            "duration": 2.0050559043884277, 
+            "status": "passed"
+          }, 
+          "step_type": "given"
+        }, 
+        {
+          "keyword": "Then", 
+          "location": "features/definition.feature:8", 
+          "match": {
+            "arguments": [
+              {
+                "name": "searchTxt", 
+                "value": "pear"
+              }
+            ], 
+            "location": "features/steps/definition_step.py:27"
+          }, 
+          "name": "I am on definition page of the word: pear", 
+          "result": {
+            "duration": 0.13928508758544922, 
+            "status": "passed"
+          }, 
+          "step_type": "then"
+        }, 
+        {
+          "keyword": "Then", 
+          "location": "features/definition.feature:9", 
+          "match": {
+            "arguments": [
+              {
+                "name": "expectedDefinition", 
+                "value": "'An edible fruit produced by the pear tree, similar to an apple but elongated towards the stem."
+              }
+            ], 
+            "location": "features/steps/definition_step.py:31"
+          }, 
+          "name": "I check that one definition is: 'An edible fruit produced by the pear tree, similar to an apple but elongated towards the stem.", 
+          "result": {
+            "duration": 0.23023295402526855, 
+            "status": "passed"
+          }, 
+          "step_type": "then"
+        }
+      ], 
+      "tags": [], 
+      "type": "scenario"
+    }, 
+    {
+      "keyword": "Scenario Outline", 
+      "location": "features/definition.feature:15", 
+      "name": "Assert definition of pizza -- @1.3 searchbase", 
+      "status": "passed", 
+      "steps": [
+        {
+          "keyword": "Given", 
+          "location": "features/definition.feature:4", 
+          "match": {
+            "arguments": [], 
+            "location": "features/steps/home_step.py:9"
+          }, 
+          "name": "I open: https://en.wiktionary.org/prepare by the first time", 
+          "result": {
+            "duration": 2.623725175857544, 
+            "status": "passed"
+          }, 
+          "step_type": "given"
+        }, 
+        {
+          "keyword": "Then", 
+          "location": "features/definition.feature:5", 
+          "match": {
+            "arguments": [], 
+            "location": "features/steps/home_step.py:14"
+          }, 
+          "name": "I am on homepage", 
+          "result": {
+            "duration": 0.046994924545288086, 
+            "status": "passed"
+          }, 
+          "step_type": "then"
+        }, 
+        {
+          "keyword": "Then", 
+          "location": "features/definition.feature:6", 
+          "match": {
+            "arguments": [
+              {
+                "name": "searchTxt", 
+                "value": "pizza"
+              }
+            ], 
+            "location": "features/steps/home_step.py:26"
+          }, 
+          "name": "I look up the definition of the word pizza", 
+          "result": {
+            "duration": 1.838982105255127, 
+            "status": "passed"
+          }, 
+          "step_type": "then"
+        }, 
+        {
+          "keyword": "Given", 
+          "location": "features/definition.feature:7", 
+          "match": {
+            "arguments": [], 
+            "location": "features/steps/definition_step.py:10"
+          }, 
+          "name": "I prepare myself to be on definition page", 
+          "result": {
+            "duration": 2.003950834274292, 
+            "status": "passed"
+          }, 
+          "step_type": "given"
+        }, 
+        {
+          "keyword": "Then", 
+          "location": "features/definition.feature:8", 
+          "match": {
+            "arguments": [
+              {
+                "name": "searchTxt", 
+                "value": "pizza"
+              }
+            ], 
+            "location": "features/steps/definition_step.py:27"
+          }, 
+          "name": "I am on definition page of the word: pizza", 
+          "result": {
+            "duration": 0.09515810012817383, 
+            "status": "passed"
+          }, 
+          "step_type": "then"
+        }, 
+        {
+          "keyword": "Then", 
+          "location": "features/definition.feature:9", 
+          "match": {
+            "arguments": [
+              {
+                "name": "expectedDefinition", 
+                "value": "pizza (baked Italian dish of dough with topped with tomato sauce, cheese and other ingredients)"
+              }
+            ], 
+            "location": "features/steps/definition_step.py:31"
+          }, 
+          "name": "I check that one definition is: pizza (baked Italian dish of dough with topped with tomato sauce, cheese and other ingredients)", 
+          "result": {
+            "duration": 0.9310760498046875, 
+            "status": "passed"
+          }, 
+          "step_type": "then"
+        }
+      ], 
+      "tags": [], 
       "type": "scenario"
     }
-  ],
-  "keyword": "Feature",
-  "location": "features/definition.feature:2",
-  "name": "Adidas Challenge Front",
-  "status": "passed",
+  ], 
+  "keyword": "Feature", 
+  "location": "features/definition.feature:2", 
+  "name": "Adidas Challenge Front", 
+  "status": "passed", 
   "tags": [
     "runSearch"
   ]
