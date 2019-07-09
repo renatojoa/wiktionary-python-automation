@@ -3,9 +3,9 @@
   "elements": [
     {
       "keyword": "Scenario Outline",
-      "location": "features/definition.feature:15",
-      "name": "Assert definition of pizza -- @1.1 searchbase",
-      "status": "failed",
+      "location": "features/definition.feature:14",
+      "name": "Assert definition of pear -- @1.1 searchbase",
+      "status": "passed",
       "steps": [
         {
           "keyword": "Given",
@@ -16,7 +16,7 @@
           },
           "name": "I open: https://en.wiktionary.org/prepare by the first time",
           "result": {
-            "duration": 1.3317339420318604,
+            "duration": 1.66829514503479,
             "status": "passed"
           },
           "step_type": "given"
@@ -30,7 +30,7 @@
           },
           "name": "I am on homepage",
           "result": {
-            "duration": 0.01997995376586914,
+            "duration": 0.019978761672973633,
             "status": "passed"
           },
           "step_type": "then"
@@ -42,14 +42,14 @@
             "arguments": [
               {
                 "name": "searchTxt",
-                "value": "pizza"
+                "value": "pear"
               }
             ],
             "location": "features/steps/home_step.py:26"
           },
-          "name": "I look up the definition of the word pizza",
+          "name": "I look up the definition of the word pear",
           "result": {
-            "duration": 0.9917097091674805,
+            "duration": 0.9480321407318115,
             "status": "passed"
           },
           "step_type": "then"
@@ -63,7 +63,7 @@
           },
           "name": "I prepare myself to be on definition page",
           "result": {
-            "duration": 2.0016512870788574,
+            "duration": 2.0003318786621094,
             "status": "passed"
           },
           "step_type": "given"
@@ -75,14 +75,14 @@
             "arguments": [
               {
                 "name": "searchTxt",
-                "value": "pizza"
+                "value": "pear"
               }
             ],
             "location": "features/steps/definition_step.py:27"
           },
-          "name": "I am on definition page of the word: pizza",
+          "name": "I am on definition page of the word: pear",
           "result": {
-            "duration": 0.08790898323059082,
+            "duration": 0.08591270446777344,
             "status": "passed"
           },
           "step_type": "then"
@@ -94,39 +94,15 @@
             "arguments": [
               {
                 "name": "expectedDefinition",
-                "value": "pizza (baked Italian dish of dough with topped with tomato sauce, cheese and other ingredients)"
+                "value": "'An edible fruit produced by the pear tree, similar to an apple but elongated towards the stem."
               }
             ],
             "location": "features/steps/definition_step.py:31"
           },
-          "name": "I check that one definition is: pizza (baked Italian dish of dough with topped with tomato sauce, cheese and other ingredients)",
+          "name": "I check that one definition is: 'An edible fruit produced by the pear tree, similar to an apple but elongated towards the stem.",
           "result": {
-            "duration": 0.03496360778808594,
-            "error_message": [
-              "Traceback (most recent call last):",
-              "  File \"C:\\Users\\renat\\AppData\\Local\\Programs\\Python\\Python37-32\\lib\\site-packages\\behave\\model.py\", line 1329, in run",
-              "    match.run(runner.context)",
-              "  File \"C:\\Users\\renat\\AppData\\Local\\Programs\\Python\\Python37-32\\lib\\site-packages\\behave\\matchers.py\", line 98, in run",
-              "    self.func(context, *args, **kwargs)",
-              "  File \"features\\steps\\definition_step.py\", line 33, in step_impl",
-              "    context.definition_page.assertDefinition(expectedDefinition)",
-              "  File \"C:\\Users\\renat\\Desktop\\adidasFront\\features\\pages\\definition_page.py\", line 31, in assertDefinition",
-              "    print(self.return_text(x))",
-              "  File \"C:\\Users\\renat\\Desktop\\adidasFront\\features\\pages\\base_page.py\", line 102, in return_text",
-              "    return self.find(locator).text",
-              "  File \"C:\\Users\\renat\\Desktop\\adidasFront\\features\\pages\\base_page.py\", line 30, in find",
-              "    element = self.wait_for(EC.visibility_of_element_located(locator))",
-              "  File \"C:\\Users\\renat\\Desktop\\adidasFront\\features\\pages\\base_page.py\", line 37, in wait_for",
-              "    return WebDriverWait(self.driver, seconds).until(condition)",
-              "  File \"C:\\Users\\renat\\AppData\\Local\\Programs\\Python\\Python37-32\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py\", line 71, in until",
-              "    value = method(self._driver)",
-              "  File \"C:\\Users\\renat\\AppData\\Local\\Programs\\Python\\Python37-32\\lib\\site-packages\\selenium\\webdriver\\support\\expected_conditions.py\", line 128, in __call__",
-              "    return _element_if_visible(_find_element(driver, self.locator))",
-              "  File \"C:\\Users\\renat\\AppData\\Local\\Programs\\Python\\Python37-32\\lib\\site-packages\\selenium\\webdriver\\support\\expected_conditions.py\", line 411, in _find_element",
-              "    return driver.find_element(*by)",
-              "TypeError: find_element() argument after * must be an iterable, not WebElement"
-            ],
-            "status": "failed"
+            "duration": 0.09190559387207031,
+            "status": "passed"
           },
           "step_type": "then"
         }
@@ -138,7 +114,7 @@
   "keyword": "Feature",
   "location": "features/definition.feature:2",
   "name": "Adidas Challenge Front",
-  "status": "failed",
+  "status": "passed",
   "tags": [
     "runSearch"
   ]

@@ -85,6 +85,10 @@ class BasePage:
         element = self.driver.find_elements_by_id(id)[0]
         print(element.text())
         return element
+    
+    def find_by_xpath(self, locator):
+        element = self.driver.find_elements_by_xpath("//*[@id='mw-content-text']//h3//following-sibling::ol")
+        return element
 
     def find_by_css(self, css):
         element = self.driver.find_elements_by_css_selector(css)[0]

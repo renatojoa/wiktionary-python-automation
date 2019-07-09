@@ -11,5 +11,5 @@
       Examples: searchbase
         | searchTxt | expectedDefinition                                                                              |
         # | apple     | A common, round fruit produced by the tree Malus domestica, cultivated in temperate climates.   |
-        # | pear      | 'An edible fruit produced by the pear tree, similar to an apple but elongated towards the stem. |
-        | pizza     | pizza (baked Italian dish of dough with topped with tomato sauce, cheese and other ingredients) |
+        | pear      | 'An edible fruit produced by the pear tree, similar to an apple but elongated towards the stem. |
+        # | pizza     | pizza (baked Italian dish of dough with topped with tomato sauce, cheese and other ingredients) |

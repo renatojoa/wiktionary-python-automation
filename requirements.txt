@@ -4,7 +4,6 @@ behave
 allure-behave
 allure-robotframework
 allure-python-commons
-allure-results
 enum34
 parse
 parse-type

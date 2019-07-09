@@ -28,10 +28,10 @@ def before_scenario(context, scenario):
     context.driver.maximize_window()
 
 def after_scenario(context, scenario):
-    if platform.system() == 'Darwin':
-        generate_report('mac')
-    elif platform.system() == 'Windows':
-        generate_report('win')
+    # if platform.system() == 'Darwin':
+    #     generate_report('mac')
+    # elif platform.system() == 'Windows':
+    #     generate_report('win')
     context.driver.quit()
 
 # def after_all(context):
