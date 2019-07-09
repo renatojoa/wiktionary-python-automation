@@ -31,13 +31,13 @@ what should do:
 
 
 ## Info:
-* Programming language: Python
-* Repository design pattern: Page Object
+* Programming Language: Python
+* Repository Design Pattern: Page Object
 * Testing Structure Model: BDD
 * Testing Structure Framework : Behave 
 * Testing Framework: Pytest
 * Testing export Report: Allure Report
-* Additional recurse: [Suggestions to make the web site faster through](https://developers.google.com/speed/pagespeed/insights/?hl=pt-BR&url=https%3A%2F%2Fen.wiktionary.org%2Fwiki%2Fapple)
+* Additional Recurse: [Suggestions to make the web site faster through](https://developers.google.com/speed/pagespeed/insights/?hl=pt-BR&url=https%3A%2F%2Fen.wiktionary.org%2Fwiki%2Fapple)
 
 
 ## Develop by:
