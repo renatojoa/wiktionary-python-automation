@@ -11,9 +11,9 @@
 >
 > `$ pip install -r requirements.txt`
 
-> To buil on vscode 
+> To build on vscode 
 >
-> Open lauch.json and change the "cwd" param to you: "c:/CHANGE/TO/YOUR/PROJECT/FOLDER"
+> Open lauch.json and change the "cwd" param to your project folder: "c:/CHANGE/TO/YOUR/PROJECT/FOLDER"
 
 ## Execution and Reporting:
 
