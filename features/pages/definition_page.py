@@ -34,4 +34,9 @@ class DefinitionPage(BasePage):
         for li in myDefinitions:
             z = li.text
             if expectedDefinition in li.text:
+                print(expectedDefinition)
+                print(li.text)
                 assert expectedDefinition in li.text
+                break
+        else :
+            assert False
